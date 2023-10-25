@@ -1,0 +1,1 @@
+print("SAYA SAYANG IBU DITA")
