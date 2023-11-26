@@ -19,9 +19,9 @@ score = 0
 parts_number = 0
 
 os.system('cls')
-for question in questions:
+for index,question in enumerate(questions):
     print("-"*30)
-    print(question)
+    print(f"{index+1}.{question}")
     for option in options[parts_number]:
         print(option)
    
